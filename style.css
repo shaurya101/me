@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+}
+header{
+    background-color: #2F4F4F;
+    height: 65px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: solid;
+    font-family: Open sans;
+    color: #fff;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+    padding: 10px 10px;
+}
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-80%,-100%);
+}
+.title h1{
+    color: rgb(255, 104, 35);
+    font-size:80px;
+    text-shadow: 2px 2px #c0c0c0;
+    letter-spacing: 6px;
+}
+.button{
+    position: absolute;
+    font-size: 15px;
+    top: 53%;
+    left: 16%;
+    transform: translate(-50%,-50%);
+} 
+.button a{
+    font-family: Lato;
+}
+.btn{
+    border: 0px solid #fff;
+    padding: 6px 45px;
+    background: #2F4F4F;
+    color: #fff;
+    text-decoration: none; 
+    transition: 0.4s ease;
+    box-shadow: 1px 2px rgb(61, 61, 61);
+}
+.btn:hover{
+    background-color: transparent;
+    color: #000;
+    border:1px solid #2F4F4F;
+}
+.avatar img{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 980px;
+    top: 700px;
+    box-shadow: 2px 1px rgb(151, 151, 151);
+}
