@@ -161,3 +161,21 @@ input, select {
     top: 80%;
     box-shadow: 2px 1px rgb(151, 151, 151);
 }
+.resume img{
+    width: 5%;
+    position: absolute;
+    top: 27%;
+    left:70%;
+}
+.portfolio img{
+    width: 5%;
+    position: absolute;
+    top: 38%;
+    left: 65%;
+}
+.projects img{
+    width: 5%;
+    position: absolute;
+    top: 38%;
+    left:75%;
+}
